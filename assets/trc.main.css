@@ -1,0 +1,181 @@
+
+/* Body */
+
+body {
+	color: white;
+	font-family: Sans-Serif;
+	padding-bottom: 500px;
+}
+
+html {
+    scroll-behavior: smooth;
+
+}
+
+
+/* Headlines */
+
+
+h1 {
+    font-size: 4em;
+    margin-top: 0;
+    text-shadow: 2px 6px black;
+
+}
+
+h2 {
+    font-size: 3em;
+    margin-top: 0.25em;
+    text-shadow: 2px 5px black;
+    
+}
+
+h3 {
+    font-size: 2em;
+    text-shadow: 2px 4px black;
+
+}
+
+h4 {
+    font-size: 1em;
+
+}
+
+/* Define a paragraph type for page bottom padding */
+p.ex1 {
+    padding-bottom: 60px;
+}
+
+
+/* span types for two different text sizes on one line */
+.topic {
+    font-size: 30px;
+    text-shadow: 2px 3px black;
+    font-weight: bold;
+}
+
+.description {
+    font-size: 20px;
+
+
+}
+    
+.reference {
+    font-size: 15px;
+
+
+}
+
+
+/* Link types */
+
+a:link {
+    color: black;
+	font-size: 40%;
+	font-weight: bold;
+}
+
+
+/* Unordered Lists */
+
+ul {
+    width: 20%;
+}
+
+
+/* List elements */
+
+li {
+    font-size: 100px;
+	text-decoration: underline;
+	width: 900px;
+}
+
+
+
+div.menu {
+    float: center;
+
+
+
+}
+
+
+
+/* Sections */
+
+section.menu {
+    height: 110%;
+    margin-top: 80px;
+}
+    
+section.main {
+    height: 20%;
+    color: white;
+    margin-top: 100px;
+}
+
+section.centered {
+
+    color: white;
+    margin-top: 1150px;
+    text-align: center;
+    background-color: coral;
+}
+
+
+/* Banner */
+div.banner {
+  overflow: hidden;
+  background-color: lightpink;
+
+  top: 0; /* Position the navbar at the top of the page */
+  left: 0;
+  width: 100%;
+
+
+
+}
+
+div.main {
+    margin-top: 220px;
+
+}
+
+a.links {
+    margin-bottom: 110px;
+	display: inline-block;
+}
+
+/* Center Image with class="center" */
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+
+
+}
+
+/* Back to Top Button */
+
+#TopButton {
+
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: violet; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
+
+
+
+
